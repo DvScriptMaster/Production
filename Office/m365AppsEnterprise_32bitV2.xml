@@ -1,0 +1,27 @@
+<Configuration ID="216fb1fb-b7ea-4e53-8577-98371302d48b">
+  <Add OfficeClientEdition="32" Channel="Current" MigrateArch="TRUE">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneNote" />
+    </Product>
+    <Product ID="AccessRuntimeRetail">
+      <Language ID="en-us" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="1" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Updates Enabled="TRUE" />
+  <AppSettings>
+    <User Key="software\microsoft\office\16.0\common\toolbars" Name="screentipscheme" Value="2" Type="REG_DWORD" App="office16" Id="L_ShowScreenTips" />
+    <User Key="software\microsoft\office\16.0\common\fileio" Name="ageoutpolicy" Value="1" Type="REG_DWORD" App="office16" Id="L_AgeOutPolicy" />
+    <User Key="software\microsoft\office\16.0\excel\options" Name="showwindowsintaskbar" Value="1" Type="REG_DWORD" App="excel16" Id="L_WindowsinTaskbar" />
+    <User Key="software\microsoft\office\16.0\excel\options" Name="autorecoverenabled" Value="1" Type="REG_DWORD" App="excel16" Id="L_SaveAutoRecoverinfo" />
+    <User Key="software\microsoft\office\16.0\powerpoint\options" Name="showwindowsintaskbar" Value="1" Type="REG_DWORD" App="ppt16" Id="L_WindowsinTaskbar" />
+    <User Key="software\microsoft\office\16.0\publisher\preferences" Name="autorecoversaveinterval" Value="5" Type="REG_SZ" App="pub16" Id="L_SaveAutoRecoverinfoevery" />
+    <User Key="software\microsoft\office\16.0\word\options" Name="autosaveinterval" Value="5" Type="REG_DWORD" App="word16" Id="L_SaveAutoRecoverinfo" />
+  </AppSettings>
+</Configuration>
